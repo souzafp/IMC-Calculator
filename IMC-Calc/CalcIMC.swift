@@ -30,13 +30,13 @@ func showIMC (imc: Double) -> String {
     if imc < 18.5 {
         return ("Seu IMC pessoal: " + imctxt + "\nAbaixo do Peso")
     } else if imc < 24.9 {
-        return (imctxt + "Peso Normal")
+        return ("Seu IMC pessoal: " + imctxt + "\nPeso Normal")
     } else if imc < 29.9 {
-        return (imctxt + "Sobrepeso")
+        return ("Seu IMC pessoal: " + imctxt + "\nSobrepeso")
     } else if imc < 34.9 {
-        return (imctxt + "Obesidade Grau I")
+        return ("Seu IMC pessoal: " + imctxt + "\nObesidade Grau I")
     } else if imc < 39.9 {
-        return (imctxt + "Obesidade Grau II")
+        return ("Seu IMC pessoal: " + imctxt + "\nObesidade Grau II")
     }
-    return (imctxt + "Obesidade III ou Mórbida")
+    return ("Seu IMC pessoal: " + imctxt + "\nObesidade III ou Mórbida")
 }
